@@ -8,7 +8,7 @@ namespace Models
 {
     public class CachorroVoador : Animal
     {
-        public CachorroVoador(int asas)
+        public CachorroVoador(string nome, int idade, int asas) : base(nome, idade)
         {
             Asas = asas;
         }
