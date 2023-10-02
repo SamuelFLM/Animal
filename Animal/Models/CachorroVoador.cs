@@ -6,9 +6,9 @@ using Models.Abstract;
 
 namespace Models
 {
-    public class CachorroVoador : Animal
+    public class CachorroVoador : Cachorro
     {
-        public CachorroVoador(string nome, int idade, int asas) : base(nome, idade)
+        public CachorroVoador(string nome, int idade, string raca, int asas) : base(nome, idade, raca)
         {
             Asas = asas;
         }

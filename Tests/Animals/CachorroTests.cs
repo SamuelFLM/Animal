@@ -17,13 +17,13 @@ namespace Tests.Animals
         }
 
         [Theory]
-        [InlineData("Doguinho", 2, "Pastor Alemão")]
+        [InlineData("Doguinho", 2, "Alemão")]
         public void DeveSalvarOsDadosCorretamente(string nome, int idade, string raca)
         {
             var cachorro = Construtor(nome, idade, raca);
 
             Assert.Equal("Doguinho", cachorro.Nome);
-            Assert.Equal("Pastor Alemão", cachorro.Raca);
+            Assert.Equal("Alemão", cachorro.Raca);
         }
 
         [Fact]
