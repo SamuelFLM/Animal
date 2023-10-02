@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Animal.Models.Interfaces
+namespace Models.Interfaces
 {
     public interface IAnimal
     {

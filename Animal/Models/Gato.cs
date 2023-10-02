@@ -2,11 +2,20 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Models.Abstract;
 
-namespace Animal.Models
+namespace Models
 {
-    public class Gato
+    public class Gato : Animal
     {
-        
+        public override void EmitirSom()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Mover()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

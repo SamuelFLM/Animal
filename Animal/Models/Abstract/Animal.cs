@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Animal.Models.Interfaces;
+using Models.Interfaces;
 
-namespace Animal.Models.Abstract
+namespace Models.Abstract
 {
     public abstract class Animal : IAnimal
     {
