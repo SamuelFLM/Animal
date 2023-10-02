@@ -24,7 +24,7 @@ namespace Models.Abstract
                 if (value != "")
                     _nome = value;
                 else
-                    throw new NullReferenceException("Nome não pode ser vazio.");
+                    throw new Exception("Nome não pode ser vazio.");
             }
         }
         private int _idade;

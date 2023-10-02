@@ -21,7 +21,7 @@ namespace Models
                 if (value != "")
                     _raca = value;
                 else
-                    throw new NullReferenceException("Raca não pode ser vazio");
+                    throw new Exception("Raca não pode ser vazio");
             }
         }
 
