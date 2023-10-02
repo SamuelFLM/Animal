@@ -27,12 +27,12 @@ namespace Models
 
         public override void EmitirSom()
         {
-            Console.WriteLine("AU AU AU.....");
+            Console.WriteLine("AU AU");
         }
 
         public override void Mover()
         {
-            Console.WriteLine("Correndo....");
+            Console.WriteLine("Correndo");
         }
     }
 }
