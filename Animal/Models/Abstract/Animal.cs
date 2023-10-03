@@ -33,7 +33,7 @@ namespace Models.Abstract
             get => _idade;
             set
             {
-                if (value > 0 && !string.IsNullOrWhiteSpace(value.ToString()))
+                if (value > 0)
                     _idade = value;
                 else
                     throw new Exception("Idade não pode ser menor que zero.");

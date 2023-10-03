@@ -18,7 +18,7 @@ namespace Models
             get => _asas;
             set
             {
-                if (value > 0 && string.IsNullOrWhiteSpace(value.ToString()))
+                if (value > 0)
                     _asas = value;
                 else
                     throw new Exception("Asas não pode ser menor que zero.");

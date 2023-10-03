@@ -18,7 +18,7 @@ namespace Models
             get => _raca;
             set
             {
-                if (value != "")
+                if (!string.IsNullOrWhiteSpace(value))
                     _raca = value;
                 else
                     throw new Exception("Raca não pode ser vazio");
