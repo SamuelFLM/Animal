@@ -21,7 +21,7 @@ namespace Models.Abstract
             get => _nome;
             set
             {
-                if (value != "")
+                if (!string.IsNullOrWhiteSpace(value))
                     _nome = value;
                 else
                     throw new Exception("Nome não pode ser vazio.");
@@ -33,7 +33,7 @@ namespace Models.Abstract
             get => _idade;
             set
             {
-                if (value > 0)
+                if (value > 0 && !string.IsNullOrWhiteSpace(value.ToString()))
                     _idade = value;
                 else
                     throw new Exception("Idade não pode ser menor que zero.");
