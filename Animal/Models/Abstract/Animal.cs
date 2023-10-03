@@ -40,7 +40,7 @@ namespace Models.Abstract
             }
         }
 
-        public abstract void EmitirSom();
-        public abstract void Mover();
+        public abstract string EmitirSom();
+        public abstract string Mover();
     }
 }

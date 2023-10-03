@@ -16,6 +16,12 @@ namespace Tests.Animals
             return _cachorro;
         }
 
+        public CachorroVoador ConstrutorCachorroVoador(string nome, int idade, string raca, int asas)
+        {
+            CachorroVoador _cachorroVoador = new CachorroVoador(nome, idade, raca, asas);
+            return _cachorroVoador;
+        }
+
         [Theory]
         [InlineData("Doguinho", 2, "Alemão")]
         public void DeveSalvarOsDadosCorretamente(string nome, int idade, string raca)
@@ -31,6 +37,13 @@ namespace Tests.Animals
         {
             Assert.Throws<Exception>(() =>
             Construtor("", 0, "raca"));
+        }
+
+        [Fact(DisplayName = "Exception DoguinhoVoador")]
+        public void DeveRetornarExceptionAoTentarSalvarAsas()
+        {
+            Assert.Throws<Exception>(() =>
+            ConstrutorCachorroVoador("doguinho", 1, "pet", -1));
         }
 
     }

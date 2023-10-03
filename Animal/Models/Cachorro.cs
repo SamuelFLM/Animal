@@ -25,14 +25,14 @@ namespace Models
             }
         }
 
-        public override void EmitirSom()
+        public override string EmitirSom()
         {
-            Console.WriteLine("AU AU");
+            return "AU AU";
         }
 
-        public override void Mover()
+        public override string Mover()
         {
-            Console.WriteLine("Correndo");
+            return "Correndo";
         }
     }
 }

@@ -7,7 +7,7 @@ namespace Models.Interfaces
 {
     public interface IAnimal
     {
-        void Mover();
-        void EmitirSom();
+        string Mover();
+        string EmitirSom();
     }
 }

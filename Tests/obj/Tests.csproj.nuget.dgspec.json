@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Tests\\Tests.csproj": {}
+    "C:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Tests\\Tests.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Animal\\Animal.csproj": {
+    "C:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Animal\\Animal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Animal\\Animal.csproj",
+        "projectUniqueName": "C:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Animal\\Animal.csproj",
         "projectName": "Animal",
-        "projectPath": "c:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Animal\\Animal.csproj",
+        "projectPath": "C:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Animal\\Animal.csproj",
         "packagesPath": "C:\\Users\\Lazer\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Animal\\obj\\",
+        "outputPath": "C:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Animal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "c:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Tests\\Tests.csproj": {
+    "C:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Tests\\Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Tests\\Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Tests\\Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "c:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Tests\\Tests.csproj",
+        "projectPath": "C:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Tests\\Tests.csproj",
         "packagesPath": "C:\\Users\\Lazer\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Tests\\obj\\",
+        "outputPath": "C:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +99,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Animal\\Animal.csproj": {
-                "projectPath": "c:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Animal\\Animal.csproj"
+              "C:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Animal\\Animal.csproj": {
+                "projectPath": "C:\\Users\\Lazer\\OneDrive\\Área de Trabalho\\Animal\\Animal\\Animal.csproj"
               }
             }
           }
